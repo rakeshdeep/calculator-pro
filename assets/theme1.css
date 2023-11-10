@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+.attribution a { color: #fff; }
+
+.themeBB span:nth-child(1){
+    background-color: hsl(6, 63%, 50%);
+}
+.themeBB span:nth-child(1):hover{
+    background-color: hsl(6, 56%, 59%);
+}
+.display{
+    background-color: hsl(223, 31%, 20%);
+    color: #ffffff;
+}
+.buttons{
+    background-color: hsl(223, 31%, 20%);
+}
+.btn{
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    box-shadow: 0px 2px 0px 1px hsl(28, 16%, 65%);
+}
+.btn:hover{
+    background-color: #ffffff;
+}
+.resDel{
+    background-color: hsl(225, 21%, 49%);
+    color: #fff;
+    box-shadow: 0px 2px 0px 1px hsl(224, 28%, 35%);
+}
+.equal{
+    background-color:  hsl(6, 63%, 50%);
+    box-shadow: 0px 2px 0px 1px hsl(6, 70%, 34%);
+    color: #fff; 
+}
+.equal:hover{
+    background-color: hsl(6, 56%, 59%);
+}
+.resDel:hover{
+    background-color: hsla(225, 11%, 64%, 0.884);
+}

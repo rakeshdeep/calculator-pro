@@ -1,0 +1,44 @@
+body{
+    background-color:  hsl(0, 0%, 90%);
+}
+.themeBox{
+    color: hsl(60, 10%, 19%); 
+}
+.themeBB span:nth-child(2){
+    background-color: hsl(25, 98%, 40%);
+}
+.themeBB span:nth-child(2):hover{
+    background-color: hsla(25, 98%, 40%, 0.842);
+}
+.display{
+    background-color: hsl(0, 0%, 96%);
+    color: hsl(60, 10%, 19%);
+}
+.buttons{
+    background-color: hsl(0, 5%, 81%);
+}
+.btn{
+    background-color: hsl(45, 7%, 89%);
+    color: hsl(60, 10%, 19%);
+    border: 1px solid #ccc;  
+    box-shadow: 0px 2px 0px 1px hsl(35, 11%, 61%);
+}
+.btn:hover{
+    background-color: #ffffff;
+}
+.resDel{
+    background-color: hsl(185, 42%, 37%);
+    color: #fff;
+    box-shadow: 0px 2px 0px 1px hsl(185, 58%, 25%);
+}
+.equal{
+    background-color:  hsl(25, 98%, 40%);
+    box-shadow: 0px 2px 0px 1px hsl(25, 99%, 27%);
+    color: #fff; 
+}
+.equal:hover{
+    background-color: hsla(25, 98%, 40%, 0.842);
+}
+.resDel:hover{
+    background-color: hsla(185, 42%, 37%, 0.836);
+}
