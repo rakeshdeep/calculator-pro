@@ -16,11 +16,12 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: hsl(222, 26%, 31%);
+    padding: 10px;
 }
 .themeBox{
     display: flex;
@@ -124,10 +125,34 @@ body {
     grid-column: span 2;
     border: none !important;
 }
+.other-app {
+    padding: 2px;
+    margin: 4px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 100%;
+    
+}
+.other-app a {
+    flex: 1;
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
 
 
 @media screen and (max-width:490px){
     body{
         justify-content: flex-start;
+    }
+}
+
+@media screen  and (min-width: 780px) {
+    .other-app {
+        width: auto;
+        flex-flow: row;
     }
 }
